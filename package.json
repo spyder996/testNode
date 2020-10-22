@@ -1,0 +1,29 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "This is a node git test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spyder996/testNode.git"
+  },
+  "keywords": [
+    "git",
+    "node",
+    "test"
+  ],
+  "author": "spyder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spyder996/testNode/issues"
+  },
+  "homepage": "https://github.com/spyder996/testNode#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
